@@ -1,1 +1,7 @@
-Teste emailVer
+## Explaining the code
+
+The emailVer.py just imports one lib that is "import pyhibp", this lib was created to make the correctly requests into HaveIBeenPwnd database.
+
+In this functions we have to define some variables to it work, the first one we have to send to the HaveIBeenPwnd service our user_agent definition, in that case we are sending (A e-mail breach verification) they probably will use it to some analytics and it will not affect our code. After that is necessary to define a variable called "HIBP_API_KEY" and the value of this variable is a API key that is generated when you subscribe to the API service into HaveIBeenPwnd, this is a pay service and it's about $3,50 per month. In this code we have a API Key that we payed and are using it will woks from "17/11/2020" until "17/12/2020", and if you wants to use after that its necessary to do a new subscription and input the new API Key that will be generated.
+
+After that we make a "connection" with de HIBP database to validate our acces passing the API Key, and than we call a function that will send the email that the user inputted befor in the main.py to query into the HIBP database and try to find some breach were this email was leaked, if the emails was not found the function will return a empty list, and we treat the result to return to the users or a message informing that the email never was leaked or if it was leaked the code will return a dictionary with all the breachs were the email was found.
