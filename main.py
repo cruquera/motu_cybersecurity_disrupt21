@@ -5,7 +5,7 @@ while True:
     email = input("Digite seu e-mail: ").upper()
 
     if "@" in email:
-        if "." in email[-4:]:
+        if "." in email[-5:]:
             try:
                 result = hibpEmailVerification(email)
                 if type(result) is list:
