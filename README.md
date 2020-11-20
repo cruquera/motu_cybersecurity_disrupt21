@@ -15,4 +15,4 @@ The emailVer.py is the code responsible for make the request into HaveIBeenPwned
 
 At the end of all it will ask you if do you want to make another search, if yes it'll ask the user again for other email, but if not the user just have to press any key that isn't "S" and press "Enter" or just press "Enter" and the code will end.
 
-For more details about how the code works, please click in one of the links to check out : [main.py](https://github.com/Aracrack/motu_cybersecurity_disrupt21/blob/main/main-description.md), [emailVer.py](https://github.com/Aracrack/motu_cybersecurity_disrupt21/blob/main/emailVer-description.md).
+For more details about how the code works, please click in one of the links to check out : [main.py](https://github.com/Aracrack/motu_cybersecurity_disrupt21/blob/main/main-description.md), [emailVer.py](https://github.com/cruquera/motu_cybersecurity_disrupt21/blob/main/emailVer-description.md).
